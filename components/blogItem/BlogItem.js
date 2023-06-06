@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 function BlogItem(props) {
   const { title, image, description, details, slug } = props;
@@ -6,8 +6,8 @@ function BlogItem(props) {
   const router = useRouter();
 
   const onNavigate = () => {
-    router.push(`/${slug}`)
-  }
+    router.push(`/${slug}`);
+  };
 
   return (
     <div className="max-w-sm mx-auto overflow-hidden rounded shadow-lg my-2">
@@ -15,13 +15,18 @@ function BlogItem(props) {
       <div className="px-6 py-4">
         <div className="mb-2 text-xl font-bold">{title}</div>
         <p className="text-base text-grey-700">{description}</p>
-        {details && <p className='text-purple-400 text-base'>{details}</p>}
+        {details && <p className="text-purple-400 text-base">{details}</p>}
       </div>
-     {!details &&  <div className="text-center">
-        <button onClick={() => onNavigate()} className="px-4 py-2 my-1 font-semibold text-blue-700 bg-transparent border border-blue-500 rounded hover:bg-blue-500 hover:text-white hover:border-transparent">
-          Read More...
-        </button>
-      </div>}
+      {!details && (
+        <div className="text-center">
+          <button
+            onClick={() => onNavigate()}
+            className="px-4 py-2 my-1 font-semibold text-blue-700 bg-transparent border border-blue-500 rounded hover:bg-blue-500 hover:text-white hover:border-transparent"
+          >
+            Read More...
+          </button>
+        </div>
+      )}
     </div>
   );
 }

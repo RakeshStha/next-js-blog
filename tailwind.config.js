@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -6,7 +9,6 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   mode: 'jit',
-  darkMode: false,
   theme: {
     extend: {
       // backgroundImage: {
@@ -17,6 +19,15 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif']
       },
+      colors:{
+        red: colors.red,
+        grey: colors.grey,
+        indigio: colors.indigio,
+        blueGrey: colors.blueGrey,
+        rose: colors.rose,
+        lightBlue: colors.lightBlue,
+        orange: colors.orange
+      }
     },
   },
   variants:{
