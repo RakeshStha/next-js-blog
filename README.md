@@ -22,17 +22,15 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Udemy course :: Learn Next.js with tailwind CSS, MongoDB and Express.Js
+by Alaribe Bright
+Just a simple blog website using next.js 13, tailwind.css, MongoDB and Express.Js from Udemy course.
 
-To learn more about Next.js, take a look at the following resources:
+## Demo
+# Home
+![image](https://github.com/RakeshStha/next-js-blog/assets/56125560/79d682df-35bc-431a-8020-10ff173da4be)
+# Blogs Detail
+![image](https://github.com/RakeshStha/next-js-blog/assets/56125560/fe09ae0f-8fd0-44f4-b5c1-f441ffe155d2)
+# Add Blog Page
+![image](https://github.com/RakeshStha/next-js-blog/assets/56125560/201bac70-72d3-482e-b8b1-8abc95005886)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
